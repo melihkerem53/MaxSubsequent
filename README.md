@@ -54,11 +54,11 @@ int main()
 	{
 		if (i >= baslangic_index && i <= bitis_index)
 		{
-			printf("\033[31m%d\033[0m ", dizi[i]);
+			printf("\033[31m%5d\033[0m", dizi[i]);
 		}
 
 		else
-			printf("%d ", dizi[i]);
+			printf("%5d", dizi[i]);
 
 		if ((i +1)%10 == 0)
 			printf("\n");
